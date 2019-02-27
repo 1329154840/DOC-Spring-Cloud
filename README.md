@@ -15,8 +15,7 @@
 - 负载均衡节点， 提供服务在集群中，选择服务几点地址的方案
 
 # 数据库
-1. Mysql
-123
-2. Cassandra(Nosql)
+- Mysql   - 11111
+- Cassandra(Nosql)
 
 123
