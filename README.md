@@ -1,6 +1,11 @@
 # spring-cloud
 为了搭建BUPT-Iot 的场景，采用spring cloud的组件，完成快速的开发，用户数据存储在mysql，调取gantch设备的cassandra数据库
 
+# 使用的docker
+```docker run -d --hostname my-rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.7.9-management```
+
+```docker run -d -p 9411:9411 openzipkin/zipkin```
+
 # 服务名称
 ## eurekaserver
   - 注册中心，提供服务注册
