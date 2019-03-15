@@ -28,4 +28,4 @@
 # F&Q
 - 由于config用到Rabbitmq，config下本地要docker配置一下
 - ```docker run -d --hostname my-rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.7.9-management```
-
+- 装docker ce的博客 ```https://www.cnblogs.com/jmaly/p/7722863.html```
