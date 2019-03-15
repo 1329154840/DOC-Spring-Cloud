@@ -31,4 +31,4 @@
 - 后台运行 ```nohup java -jar devices_access.jar >devices_access_log.out 2>&1 &```
 - 本地scp文件夹copy到远端的home路径下 ```scp -r scp root@114.115.130.42:/home```
 - 查看jar有关进程 ```ps -ef|grep jar```
-
+- 动态查看末尾200行的日志 ```tail -200f serer_log.out```
