@@ -29,3 +29,6 @@
 - 由于config用到Rabbitmq，config下本地要docker配置一下
 - ```docker run -d --hostname my-rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.7.9-management```
 - 装docker ce的博客 ```https://www.cnblogs.com/jmaly/p/7722863.html```
+- 后台运行 ```nohup java -jar devices_access.jar >devices_access_log.out 2>&1 &```
+- 本地scp文件夹copy到远端的home路径下 ```scp -r scp root@114.115.130.42:/home```
+
