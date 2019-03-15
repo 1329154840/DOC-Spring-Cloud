@@ -24,3 +24,8 @@
    - 用户模块，两个角色，租户和用户
 - Cassandra(Nosql)
    - 设备模块，对实际设备入网
+   
+# F&Q
+- 由于config用到Rabbitmq，config下本地要docker配置一下
+- ```docker run -d --hostname my-rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.7.9-management```
+
